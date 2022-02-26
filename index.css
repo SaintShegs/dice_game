@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    /* width: 60%; */
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    /* padding-bottom: 10%; */
+}
+.score{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    margin: auto;
+    display: block;
+    padding: 1%;
+    width: 10%;
+    font-size: medium;
+    color: green;
+    /* border-style: none; */
+    border-radius: 5px;
+}
+h1,h3{
+    margin: 30px;
+    font-family: cursive;
+    font-size: 4rem;
+    color: limegreen;
+    
+}
+p{
+    font-size: 2rem;
+    color: limegreen;
+    font-family: cursive;
+}
+img{
+    width: 60%;
+}
+footer{
+    font-family: cursive;
+    color: maroon;
+    text-align: center;
+    font-style: italic;
+}
